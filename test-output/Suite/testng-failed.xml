@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="dropdownvalue" value="Music"/>
+    <classes>
+      <class name="Amazon_Testng">
+        <methods>
+          <include name="launchUrl"/>
+          <include name="launch"/>
+          <include name="urlClose"/>
+          <include name="producCompare"/>
+        </methods>
+      </class> <!-- Amazon_Testng -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
